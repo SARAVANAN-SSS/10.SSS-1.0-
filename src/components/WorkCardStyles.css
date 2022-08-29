@@ -1,0 +1,51 @@
+
+.project-card{
+    /* color: #eee; */
+    color: #329da8;
+    margin: 3rem;
+    
+}
+
+.project-card h1{
+    margin: 1rem 1rem 1.5rem 1rem;
+    color: gold;
+    letter-spacing: 0.1rem;
+    text-align: center;
+
+}
+
+.project-card .projects{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 2rem;
+    margin: 1rem;
+}
+
+.work-container img {
+    width: 400px;
+    height: 275px;
+    object-fit: cover;
+    border: 1px solid #eee;
+}
+
+.work-container .project-content {
+    margin: 5rem;
+}
+
+.work-container .buttons{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-top: 5.9rem;
+}
+
+.work-container{
+    display: flex;
+    gap: 2rem;
+    border: 1px solid #eee;
+    width: 900px;
+    height: 375px;
+    padding: 3rem;
+}

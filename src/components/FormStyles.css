@@ -1,0 +1,42 @@
+@import url("https://fonts.googleapis.com/css2?family=Outfit:wght@100;200;300;400;500;600;700;800;900&display=swap");
+
+
+.form{
+    color: #eee;
+    width: 500px;
+    height: auto;
+    border: 1px solid #eee;
+    padding: 1rem;
+    margin: 3.1rem auto;
+}
+
+.form label{
+    width: 450px;
+}
+
+.form input{
+    width: 450px;
+    height: 47px;
+    padding: 0.7rem;
+    margin: 0.5rem 0 1rem 0;
+    font-family: "Outfit", sans-serif;
+    font-size: 1.1rem;
+    font-weight: 520;
+
+}
+.form textarea{
+    width: 450px;
+    height: 105px;
+    padding: 0.7rem;
+    margin: 0.5rem 0 1rem 0;
+    font-family: "Outfit", sans-serif;
+    font-size: 1.1rem;
+    font-weight: 520;
+
+}
+
+.form button{
+    width: 450px;
+    text-align: center;
+    margin-top: 1rem;
+}

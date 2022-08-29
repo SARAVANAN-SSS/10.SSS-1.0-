@@ -1,0 +1,28 @@
+.about{
+    text-align: center;
+    /* font-size: 1rem; */
+    /* font-weight: 300; */
+    margin: 3rem;
+}
+
+.about h1{
+    margin: 1rem 1rem 1.5rem 1rem;
+    color: gold;
+    letter-spacing: 0.1rem;
+
+}
+
+.about p{
+    margin: 1rem;
+    color: #eee;
+    padding: 0.65rem 10rem;
+    text-align: center;
+    font-size: 1.2rem;
+    text-align: left;
+    line-height: 1.6;
+}
+
+.links {
+    color: red;
+    font-size: 1.5rem;
+}
