@@ -4,7 +4,7 @@ import WorkCard from "../components/WorkCard";
 
 const Projects = () => {
   return (
-  <div className="projects">
+  <div>
   <Navbar />
   <WorkCard />
   </div>
