@@ -1,12 +1,13 @@
 import React from 'react'
 import Navbar from '../components/Navbar'
-import PricingCard from '../components/PricingCard'
+import SkillsContent from '../components/SkillsContent'
+// import PricingCard from '../components/SkillsContent'
 
 const Skills = () => {
   return (
     <div className='skills'>
     <Navbar />
-    <PricingCard />
+    <SkillsContent />
     </div>
   )
 }

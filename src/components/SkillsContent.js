@@ -1,6 +1,6 @@
-import "./PricingCardStyles.css";
+import "./SkillsContent.css";
 
-const PricingCard = () => {
+const SkillsContent = () => {
   return (
   <div className="pricing">
     <h1>SKILLS</h1>
@@ -20,4 +20,4 @@ const PricingCard = () => {
   );
 };
 
-export default PricingCard;
+export default SkillsContent;

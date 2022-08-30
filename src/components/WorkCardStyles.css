@@ -26,7 +26,7 @@
 .work-container img {
     width: 400px;
     height: 275px;
-    object-fit: cover;
+    object-fit:initial;
     border: 1px solid #eee;
 }
 
@@ -43,6 +43,7 @@
     width: 900px;
     height: 375px;
     padding: 3rem;
+    margin-bottom: 3rem;
   
 }
 

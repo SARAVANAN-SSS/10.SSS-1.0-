@@ -1,11 +1,11 @@
-import "./HeroImgStyles.css";
+import "./HomeContent.css";
 import React from "react";
 
 
 
-const HeroImg = () => {
+const HomeContent = () => {
   return (
-  <div className="hero">
+  <div className="home">
     <div className="content">
       <p>SARAVANAN S</p>
       <h1>FullStack Developer</h1>
@@ -17,4 +17,4 @@ const HeroImg = () => {
   );
 };
 
-export default HeroImg;
+export default HomeContent;

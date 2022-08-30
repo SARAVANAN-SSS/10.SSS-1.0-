@@ -52,3 +52,8 @@ ul {
   color: #fff;
   transition: 0.3s;
 } 
+
+.btn-light:visited {
+  color:#eee;
+  transition: 0.3s;
+} 

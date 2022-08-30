@@ -1,18 +1,18 @@
-import "./NavbarStyles.css";
+import "./Navbar.css";
 import React, { useState } from "react"
 import { Link } from "react-router-dom";
 // import { FaBars,FaTimes } from "react-icons/fa"
 
 const Navbar = () => {
 
-  const [show,setShow] = useState(false)
-  const handleClick = ()=>{setShow(!show)}
+  // const [show,setShow] = useState(false)
+  // const handleClick = ()=>{setShow(!show)}
   return (
     <div className="header">
       <Link to="/">
       <h1>SSS</h1>
       </Link>
-      <ul className={show?"nav-menu":"nav-menu active"}>
+      <ul className="nav-menu">
         <li>
           <Link to="/skills">Skills</Link>
         </li>

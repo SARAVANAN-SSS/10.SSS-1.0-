@@ -5,7 +5,6 @@ import Work from "./Work"
 const WorkCard = () => {
   return (
   <div className="project-card">
-  {/* <div className="headline"><h1>PROJECTS</h1></div><br /> */}
   <h1>PROJECTS</h1>
     <div className="projects">
     {projectDetails.map((project,index) => {

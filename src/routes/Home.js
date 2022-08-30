@@ -1,12 +1,12 @@
 import React from "react";
-import HeroImg from "../components/HeroImg";
+import HomeContent from "../components/HomeContent";
 import Navbar from "../components/Navbar";
 
 const Home = () => {
   return (
   <div>
   <Navbar />
-  <HeroImg />
+  <HomeContent />
   </div>
   );
 };

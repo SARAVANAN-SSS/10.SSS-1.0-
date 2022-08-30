@@ -23,9 +23,23 @@
 }
 
 .nav-menu li a{
-    font-size: 1.2rem;
+    font-size: 1.3rem;
     font-weight: 500;
     letter-spacing: 0.1rem;
+    
+}
+
+.nav-menu li a:hover{
+    font-size: 1.31rem;
+    color: gold;
+}
+
+a:active{
+    color: red;
+}
+
+a:focus{
+    color: red;
 }
 
 .hamburger{
